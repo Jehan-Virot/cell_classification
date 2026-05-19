@@ -13,8 +13,3 @@ WORKDIR /workspace
 RUN pip install --upgrade pip
 RUN pip install notebook jupyterlab pandas numpy matplotlib scipy scikit-learn scikit-image
 
-# Donner les droits sur le dossier de travail
-RUN chown -R jehan:jehan /workspace
-
-# Switch user pour que tout tourne avec jehan
-USER jehan
