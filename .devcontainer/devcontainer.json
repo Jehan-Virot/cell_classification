@@ -7,5 +7,6 @@
             "USER_GID":"1000"
         }
     },
+    "remoteUser": "jehan",
     "forwardPorts":[8888]
 }
